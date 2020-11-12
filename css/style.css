@@ -33,7 +33,6 @@
 /* HEADER */
 header {
   width: 100%;
-  height: 2000px;
 }
 .header-background {
   height: 934px;
@@ -101,6 +100,7 @@ header {
   line-height: 25px;
   margin: 20px 0;
   font-size: 16px;
+  color: #465768;
 }
 
 .jumbo-content button {
@@ -110,7 +110,26 @@ header {
   border: none;
   border-radius: 5px;
 }
-
-
-
 /* /HEADER */
+
+/* MAIN */
+main {
+  background-color: #f4f9fd;
+}
+
+.main-box-1 {
+  text-align: center;
+  padding: 30px;
+}
+
+.main-box-1 h2 {
+  color: #465768;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.main-box-1 p {
+  color: #465768;
+  line-height: 35 px;
+  font-size: 24px;
+}
