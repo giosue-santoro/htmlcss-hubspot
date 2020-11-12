@@ -217,7 +217,7 @@ main {
 }
 /* /Main box 2 */
 
-/* Three columns */
+/* Tre colonne */
 .box {
   width: 28.33%;
   height: 600px;
@@ -251,6 +251,7 @@ main {
 
 .box li {
   list-style: none;
+  line-height: 30px;
 }
 
 .box hr {
@@ -264,7 +265,55 @@ main {
   padding: 20px 30px;
   border: none;
   border-radius: 5px;
-  margin-top: 60px;
+  margin-top: 20px;
+}
+/* /Tre colonne */
+
+/* Rettangolo blu */
+section {
+  width: 100%;
+  height: 900px;
+  background-color: #00a9b8;
+  color: white;
+}
+
+.upper-section {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.upper-section h2 {
+  font-size: 37px;
+  margin-bottom: 30px;
+}
+
+.upper-section p {
+  font-size: 18px;
+  line-height: 35px;
+  margin-bottom: 50px;
+}
+
+.blue-box {
+  width: 25%;
+  height: 200px;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.blue-box-2 {
+  width: 25%;
+  height: 200px;
+  border-right: 1px solid #fff;
+}
+
+.blue-box-special {
+  width: 25%;
+  height: 200px;
+  border-bottom: 1px solid #fff;
+}
+
+.blue-box-container {
+  margin: 100px 0;
 }
 
 
@@ -274,7 +323,4 @@ main {
 
 
 
-
-
-
-/* /Three columns */
+/* /Rettangolo blu */
