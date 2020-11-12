@@ -28,6 +28,10 @@
 .icon-resize {
   height: 15px;
 }
+
+.world {
+  padding: 2px 3px 0 0;
+}
 /* /UTILITY & SETTINGS */
 
 /* HEADER */
@@ -154,6 +158,7 @@ main {
   border-radius: 10px;
   box-shadow: 0 0 10px #000;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .main-box-2-element-1 {
@@ -182,7 +187,6 @@ main {
 .main-box-2-element-2 h4{
   color: #465768;
   font-size: 20px;
-  padding:
 }
 
 .main-box-2-element-2 p{
@@ -212,3 +216,33 @@ main {
    padding-right: 15px;
 }
 /* /Main box 2 */
+
+/* Three columns */
+.box {
+  width: 28.33%;
+  height: 600px;
+  background-color: #fff;
+  margin: 30px;
+  box-shadow: 0 0 10px #000;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /Three columns */
