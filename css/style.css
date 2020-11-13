@@ -37,6 +37,7 @@
 /* HEADER */
 header {
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header-background {
@@ -135,6 +136,7 @@ main {
   text-align: center;
   padding: 30px;
   margin-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main-box-1 h2 {
@@ -159,6 +161,7 @@ main {
   box-shadow: 0 0 10px #000;
   text-align: center;
   margin-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main-box-2-element-1 {
@@ -227,6 +230,7 @@ main {
   border-radius: 10px;
   text-align: center;
   color: #465768;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .box img {
@@ -240,11 +244,11 @@ main {
 }
 
 .box h4 {
-  margin: 20px 0;
+  margin: 27px 0;
 }
 
 .box p {
-  line-height: 25px;
+  line-height: 20px;
   padding: 0 30px 20px 20px;
   font-size: 20px;
 }
@@ -280,6 +284,7 @@ section {
 .upper-section {
   text-align: center;
   padding-top: 70px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .upper-section h2 {
@@ -390,7 +395,7 @@ section {
 .third-section {
   background-color: #32495b;
   color: white;
-  height: 700px;
+  height: 580px;
 }
 
 .pre-footer-box {
@@ -399,15 +404,17 @@ section {
   width: 20%;
   margin: 50px 28px;
   padding-bottom: 100px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .third-section ul > li {
   line-height: 45px;
   list-style-type: none;
+  font-size: 15px;
 }
 
 .third-section h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bolder;
   padding-bottom: 30px;
 }
@@ -425,8 +432,41 @@ section {
   display: inline-block;
   padding-right: 75px;
   font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+/* /Colonne pre-footer */
+
+/* Footer */
+footer {
+  background-color: #32495b;
+  color: white;
+  height: 180px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+footer p {
+  margin-left: 15px;
+}
+
+footer img {
+  display: inline-block;
+  height: 90px;
+}
+
+.footer-container-1 {
+  margin-top: 25px;
+}
+
+
+.footer-container-2 {
+  margin-top: 55px;
 }
 
 
 
-/* /Colonne pre-footer */
+/* /Footer */
