@@ -48,6 +48,10 @@
 .inline-block {
   display: inline-block;
 }
+
+.dark-blue {
+  color: #465768;
+}
 /* /UTILITY & SETTINGS */
 
 /* FONT AWESOME */
@@ -69,10 +73,6 @@
 /* /FONT AWESOME */
 
 /* HEADER */
-header {
-  color: #465768;
-}
-
 .header-top {
   background-color: #f4f9fd;
   height: 60px;
@@ -180,14 +180,12 @@ main {
 }
 
 .main-box-1 h2 {
-  color: #465768;
   font-size: 35px;
   padding-bottom: 20px;
 }
 
 .main-box-1 p {
-  color: #465768;
-  line-height: 35 px;
+  line-height: 35px;
   font-size: 24px;
 }
 /* /Box Cubo */
@@ -209,7 +207,7 @@ main {
 .main-button {
   display: block;
   background-color: #fe775a;
-  color: white;
+  color: #fff;
   padding: 25px 35px;
   border: none;
   border-radius: 5px;
@@ -220,18 +218,15 @@ main {
 }
 
 .main-box-2-element-2 h3{
-  color: #465768;
   font-size: 30px;
   padding: 120px 0 20px 0;
 }
 
 .main-box-2-element-2 h4{
-  color: #465768;
   font-size: 20px;
 }
 
 .main-box-2-element-2 p{
-  color: #465768;
   font-size: 20px;
   padding: 0 110px 20px 0;
   line-height: 30px;
@@ -263,7 +258,6 @@ main {
 }
 
 .main-box-2-element-2 img {
-   vertical-align: middle;
    padding-right: 15px;
 }
 /* /Prima Box */
@@ -312,7 +306,7 @@ main {
 
 .box button {
   background-color: #fe775a;
-  color: white;
+  color: #fff;
   padding: 20px 30px;
   border: none;
   border-radius: 5px;
@@ -325,11 +319,10 @@ section {
   width: 100%;
   height: 900px;
   background: linear-gradient(45deg,#00a4bd,#00bda5);
-  color: white;
+  color: #fff;
 }
 
 .upper-section {
-  text-align: center;
   padding-top: 70px;
 }
 
@@ -433,7 +426,6 @@ left: 1300px;
 
 .second-section-container-1 {
   background-color: #fff;
-  color: #465768;
   width: 400px;
   padding: 100px;
 }
@@ -473,7 +465,7 @@ left: 1300px;
 .second-section-container-3 button {
   display: block;
   background-color: #fe775a;
-  color: white;
+  color: #fff;
   padding: 20px 35px;
   border: none;
   border-radius: 5px;
@@ -481,7 +473,6 @@ left: 1300px;
 }
 
 .second-section-container-4 img{
-  display: inline-block;
   height: 500px;
   padding-bottom: 100px;
 }
@@ -552,7 +543,6 @@ footer p {
 }
 
 footer img {
-  display: inline-block;
   height: 90px;
 }
 
@@ -567,8 +557,6 @@ footer img {
 .footer-button {
   padding: 10px;
   background-color: #fff4ef
-  color: #32495b;
-  border-radius: 4px;
   border: none;
   outline: none;
 }
