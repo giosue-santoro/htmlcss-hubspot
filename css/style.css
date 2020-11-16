@@ -39,7 +39,9 @@
 .vertical-align {
   vertical-align: middle;
 }
+/* /UTILITY & SETTINGS */
 
+/* FONT AWESOME */
 .fa-angle-down {
   padding-left: 10px;
 }
@@ -47,7 +49,15 @@
 .fa-globe {
   padding: 0 5px 0 10px;
 }
-/* /UTILITY & SETTINGS */
+
+.fa-check-circle {
+  padding-right: 15px;
+}
+
+.fa-footer {
+  padding: 10px;
+}
+/* /FONT AWESOME */
 
 /* HEADER */
 header {
@@ -155,7 +165,7 @@ main {
   background-color: #f4f9fd;
   height: 2000px;
 }
-/* Main box 1 */
+/* Box Cubo */
 .main-box-1 {
   text-align: center;
   padding: 30px;
@@ -174,9 +184,9 @@ main {
   line-height: 35 px;
   font-size: 24px;
 }
-/* /Main box 1 */
+/* /Box Cubo */
 
-/* Main box 2 */
+/* Prima box */
 .main-box-2 {
   width: 100%;
   background-color: #fff;
@@ -224,8 +234,19 @@ main {
 }
 
 .h4-with-hr {
+  width: 600px;
   display: inline-block;
-  width: 400px;
+  position: relative;
+  font-weight: 2px;
+}
+
+.hr {
+  width: 450px;
+  position: absolute;
+  bottom: 9px;
+  left: 260px;
+  height: 3px;
+  background-color: #465768;
 }
 
 .main-box-2-element-2 ul {
@@ -242,7 +263,7 @@ main {
    vertical-align: middle;
    padding-right: 15px;
 }
-/* /Main box 2 */
+/* /Prima Box */
 
 /* Tre colonne */
 .box {
@@ -272,14 +293,14 @@ main {
 }
 
 .box p {
-  line-height: 20px;
+  line-height: 25px;
   padding: 0 30px 20px 20px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .box li {
   list-style: none;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .box hr {
@@ -349,6 +370,8 @@ section {
 /* Pre-footer */
 .second-section {
   background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  height: 1000px;
 }
 
 .second-section-container-1 {
@@ -464,7 +487,7 @@ section {
 footer {
   background-color: #32495b;
   color: white;
-  height: 180px;
+  height: 280px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -483,14 +506,20 @@ footer img {
 }
 
 .footer-container-1 {
-  margin-top: 25px;
+  margin-top: 85px;
 }
-
 
 .footer-container-2 {
-  margin-top: 55px;
+  margin-top: 115px;
 }
 
-
+.footer-button {
+  padding: 10px;
+  background-color: #fff4ef
+  color: #32495b;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
 
 /* /Footer */
