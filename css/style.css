@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -61,7 +62,6 @@
 
 /* HEADER */
 header {
-  font-family: 'Montserrat', sans-serif;
   color: #465768;
 }
 
@@ -170,7 +170,6 @@ main {
   text-align: center;
   padding: 30px;
   margin-bottom: 50px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .main-box-1 h2 {
@@ -195,7 +194,6 @@ main {
   box-shadow: 0 0 10px #000;
   text-align: center;
   margin-bottom: 50px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .main-box-2-element-1 {
@@ -275,7 +273,6 @@ main {
   border-radius: 10px;
   text-align: center;
   color: #465768;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .box img {
@@ -329,7 +326,6 @@ section {
 .upper-section {
   text-align: center;
   padding-top: 70px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .upper-section h2 {
@@ -370,7 +366,6 @@ section {
 /* Pre-footer */
 .second-section {
   background-color: #fff;
-  font-family: 'Montserrat', sans-serif;
   height: 1000px;
 }
 
@@ -441,8 +436,9 @@ section {
 /* Colonne pre-footer */
 .third-section {
   background-color: #32495b;
-  color: white;
+  color: #fff;
   height: 580px;
+  position: relative;
 }
 
 .pre-footer-box {
@@ -451,7 +447,14 @@ section {
   width: 20%;
   margin: 50px 28px;
   padding-bottom: 100px;
-  font-family: 'Montserrat', sans-serif;
+}
+
+.pre-footer-box-special {
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+  margin: 50px 0;
+  position: absolute;
 }
 
 .third-section ul > li {
@@ -472,28 +475,27 @@ section {
   border-bottom: 1px solid #fff;
   height: 30px;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 .languages-container li {
   display: inline-block;
   padding-right: 75px;
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
 }
 /* /Colonne pre-footer */
 
 /* Footer */
 footer {
   background-color: #32495b;
-  color: white;
-  height: 280px;
-  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  height: 220px;
 }
 
 footer li {
   list-style-type: none;
   display: inline-block;
+  padding-right: 20px;
 }
 
 footer p {
@@ -506,11 +508,11 @@ footer img {
 }
 
 .footer-container-1 {
-  margin-top: 85px;
+  padding-left: 10px;
 }
 
 .footer-container-2 {
-  margin-top: 115px;
+  margin-top: 25px;
 }
 
 .footer-button {
